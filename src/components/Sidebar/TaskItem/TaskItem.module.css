@@ -1,0 +1,13 @@
+.Item {
+  list-style: none;
+}
+
+.TaskText {
+  padding: 1.5rem 2.2rem;
+  background-color: #284060;
+  margin-top: 0.5rem;
+  cursor: pointer;
+}
+.BtnDate {
+  border: none;
+}

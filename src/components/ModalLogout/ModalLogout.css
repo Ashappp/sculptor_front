@@ -1,0 +1,13 @@
+.DialogActions {
+  margin-bottom: 3rem !important;
+}
+
+.DialogTitle {
+  padding: 4rem !important;
+  font-size: 2.5rem;
+  font-family: 'Roboto';
+}
+
+.ModalLogout__btn--logout {
+  color: inherit;
+}

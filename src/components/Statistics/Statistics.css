@@ -1,0 +1,53 @@
+.Statistics {
+  padding-top: 1rem;
+  margin: 10rem auto 1rem;
+  width: 80%;
+  height: 50vh;
+  align-items: flex-end;
+}
+
+.Statistics_label {
+  display: inline-block;
+  margin-right: 10px;
+  text-align: right;
+}
+
+.Statick_text_wrapper {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.Statick_circle {
+  margin-right: 10px;
+  display: block;
+  border-radius: 50px;
+  width: 10px;
+  height: 10px;
+}
+
+.planned {
+  color: rgba(40, 64, 96);
+  font-size: 1.2rem;
+  font-family: 'Roboto';
+  font-weight: normal;
+}
+
+.done {
+  font-size: 1.2rem;
+  font-family: 'Roboto';
+  font-weight: normal;
+  color: rgba(252, 132, 44, 1);
+}
+
+.circle_planned {
+  background-color: rgba(40, 64, 96);
+}
+
+.circle_done {
+  background-color: rgba(252, 132, 44, 1);
+}
+
+.chartjs-render-monitor {
+  margin-top: 2rem;
+}

@@ -1,0 +1,60 @@
+.ModalTasks {
+  margin-bottom: 2rem;
+}
+
+.ModalTasks__input-container {
+  display: flex;
+  flex: 1;
+  margin-bottom: 2rem;
+}
+
+.ModalTasks__input-container--left {
+  display: flex;
+  flex: 1;
+}
+
+@media only screen and (max-width: 768px) {
+  .ModalTasks__input-container {
+    flex-direction: column;
+    width: 100%;
+  }
+}
+
+.ModalTasks__input {
+  display: block;
+  /* flex: 1; */
+  width: 85%;
+  height: 3.6rem;
+  background-color: #284060;
+  border: none;
+  color: #fff;
+  padding: 1rem;
+  font-style: italic;
+}
+
+.ModalTasks__input::placeholder {
+  color: #ccc;
+}
+
+.ModalTasks__del-btn {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.ModalTasks__add-btn {
+  height: 3.6rem;
+  border: none;
+  background-color: transparent;
+  color: #aaa;
+  padding: 1rem 2rem;
+  cursor: pointer;
+}
+
+.ModalTasks__add-btn:hover {
+  background-color: #eee;
+}
+
+.ModalTasks__add-btn--plus {
+  font-size: 1.5rem;
+  margin-right: 1rem;
+}

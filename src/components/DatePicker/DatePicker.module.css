@@ -1,0 +1,104 @@
+.header__date {
+  position: absolute;
+  bottom: 0;
+  height: 6.5rem;
+  background-color: #0c3351;
+  width: 100vw;
+}
+
+.datePicker {
+  width: 25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.datePicker__arrow {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-size: 1.2rem;
+  line-height: 2rem;
+  display: flex;
+  color: #c5cdcd;
+  cursor: pointer;
+}
+
+.datePicker__dateNow {
+  width: 50px;
+  height: 43px;
+  background-color: #fc842c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  color: #fff;
+  margin: 0 1.6rem;
+}
+
+.dateNow__month {
+  text-transform: uppercase;
+  font-size: 1rem;
+  line-height: 0.5rem;
+}
+
+.dateNow__day {
+  font-size: 2rem;
+  line-height: 1rem;
+}
+
+.arrow__next {
+  transform: rotate(180deg);
+}
+
+.arrow__prev,
+.arrow__next {
+  width: 2rem;
+  height: 2rem;
+  fill: #c5cdcd;
+  margin: 0 0.5rem;
+}
+
+/* Transitions */
+.datePicker__arrow,
+.arrow__prev,
+.arrow__next {
+  transition-duration: 0.3s;
+}
+
+.datePicker__arrow:hover {
+  color: #f6e;
+}
+
+.datePicker__arrow:hover .arrow__prev,
+.datePicker__arrow:hover .arrow__next {
+  fill: #f6e;
+}
+
+@media only screen and (max-width: 320px) {
+  .header__date {
+    padding: 1.1rem;
+  }
+}
+
+@media only screen and (min-width: 321px) {
+  .header__date {
+    position: initial;
+    background-color: transparent;
+    width: 25rem;
+    height: 4.3rem;
+    line-height: 4.3rem;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  .header__date {
+    width: 30rem;
+    position: absolute;
+    top: 0;
+    left: 390px;
+    right: 0;
+    text-align: center;
+  }
+}

@@ -1,0 +1,10 @@
+.TestDashboard {
+  height: calc(100vh - 101px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.TestDashboard {
+  font-size: 6.4rem;
+}

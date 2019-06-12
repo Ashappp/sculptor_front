@@ -1,0 +1,24 @@
+.List {
+  margin-top: 2rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 2rem;
+}
+
+.Title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.SubTitle {
+  font-size: 1.4rem;
+}
+.Description {
+  padding: 1.9rem 0 1.3rem;
+  font-size: 1.2rem;
+}
+.Color {
+  background-color: #eed8f2;
+  width: 2.7rem;
+  height: 2.7rem;
+  border-radius: 50%;
+}

@@ -1,0 +1,58 @@
+{
+  "goalFieldsUpdate": {
+    "goalTitle": "CHANGED WITH PUT REQEUST new goal",
+    "goalMotivation": "CHANGED WITH PUT REQEUST mew MOTIVATION"
+  },
+  "tasks": [
+    {
+      "taskId": "5ced03c93ec12046310eada9",
+      "updateFields": {
+        "taskTitle": "CHANGE WITH PUT"
+      }
+    }
+  ],
+  "newTasks": [
+    {
+      "goalId": "5ced03c93ec12046310eada8",
+      "taskTitle": "some task title WITH PUT CREATE",
+      "taskWeekRange": [
+        {
+          "week": "1",
+          "status": "true"
+        },
+        {
+          "week": "2",
+          "status": "true"
+        },
+        {
+          "week": "3",
+          "status": "false"
+        },
+        {
+          "week": "4",
+          "status": "false"
+        },
+        {
+          "week": "5",
+          "status": "false"
+        },
+        {
+          "week": "6",
+          "status": "false"
+        },
+        {
+          "week": "7",
+          "status": "false"
+        },
+        {
+          "week": "8",
+          "status": "false"
+        },
+        {
+          "week": "9",
+          "status": "false"
+        }
+      ]
+    }
+  ]
+}

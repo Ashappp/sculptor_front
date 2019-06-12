@@ -1,0 +1,28 @@
+.calendar {
+  z-index: 2000;
+  background-color: #223653;
+}
+
+.calendar--disabled {
+  display: none;
+}
+
+.calendarWrapper {
+  background-color: #00000030;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Cal__Today__root {
+  border-top: 0.5px solid #fff;
+}
+
+.Cal__Today__chevron {
+  left: 60%;
+}

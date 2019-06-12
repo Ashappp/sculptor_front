@@ -1,0 +1,61 @@
+@media only screen and (min-width: 321px) {
+  .header {
+    /* width: 100vw; */
+    font-size: 1.4rem;
+  }
+
+  .header__icon.more {
+    position: absolute;
+    top: -70px;
+    margin-left: 0;
+  }
+
+  .header__icons {
+    position: relative;
+    top: 79px;
+    /* width: 100vw; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 29px 13px;
+  }
+
+  .header__router.dashboard {
+    margin: 0;
+  }
+
+  .header__router.logout {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    line-height: 5.5rem;
+  }
+
+  .header__logo {
+    font-size: 1.4rem;
+  }
+}
+
+@media only screen and (min-width: 460px) {
+  .header__router {
+    display: flex;
+    align-items: center;
+  }
+
+  .header__router > span {
+    display: initial;
+    margin-left: 1rem;
+  }
+
+  .header__router.dashboard {
+    margin-left: 1.3rem;
+  }
+
+  .header__router.results {
+    margin-right: 1.6rem;
+  }
+
+  .header__router.logout {
+    right: 15px;
+  }
+}

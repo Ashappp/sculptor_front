@@ -1,0 +1,13 @@
+.ModalGoalMotivation {
+  margin-bottom: 3rem;
+}
+
+.GoalMotivation__label {
+  font-family: 'Roboto Medium';
+  font-size: 1.4rem;
+  color: rgba(185, 195, 200, 255);
+}
+
+.GoalMotivation__input {
+  margin-left: 1rem;
+}

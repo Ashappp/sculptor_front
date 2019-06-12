@@ -1,0 +1,10 @@
+.TestResults {
+  height: calc(100vh - 101px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.TestResults {
+  font-size: 6.4rem;
+}

@@ -1,0 +1,17 @@
+.ModalGoalTitle {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.ModalGoalTitle__label {
+  font-size: 1.4rem;
+  color: rgba(185, 195, 200, 255);
+  font-family: 'Roboto Medium';
+}
+
+.ModalGoalTitle__input {
+  border: none;
+  border-bottom: 1px solid #ddd;
+  margin-left: 1rem;
+  width: 45%;
+}
